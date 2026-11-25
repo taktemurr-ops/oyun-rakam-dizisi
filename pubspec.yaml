@@ -1,0 +1,24 @@
+name: oyun_rakam_dizisi
+description: "Rakam Dizisi – Zihin Antrenmanı merkez uygulamasının oyunu."
+publish_to: none
+version: 1.0.0
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  studio_core:
+    git:
+      url: https://github.com/taktemurr-ops/studio-core
+      ref: 05acd1e648dcb04c962281272f3fb806fc9ccc99
+  zihin_motoru:
+    git:
+      url: https://github.com/taktemurr-ops/zihin-motoru
+      ref: d17d3f2c82ebcc537075e52806c7f993ff5121db
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
